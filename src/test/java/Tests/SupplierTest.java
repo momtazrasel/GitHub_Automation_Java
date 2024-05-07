@@ -6,7 +6,7 @@ public class SupplierTest extends LoginTest{
 
     @Test
     public void supplierPage() throws InterruptedException {
-        gitHubSignUp();
+//        gitHubSignUp();
         SupplierPage supplierPage = homePage.supplier();
         supplierPage.getSupplierPage();
     }

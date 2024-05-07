@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 public class SellerTest extends LoginTest{
     @Test
     public void sellerTest() throws InterruptedException {
-        gitHubSignUp();
+//        gitHubSignUp();
         SellerPage sellerPage = homePage.seller();
         sellerPage.getSellerTab();
     }

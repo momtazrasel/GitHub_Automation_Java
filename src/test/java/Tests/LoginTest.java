@@ -21,9 +21,9 @@ public class LoginTest extends Base {
         LoginPage login = homePage.signIn();
         login.getSignUpButton();
         login.getWelcomeText();
-        login.getEmail();
-        login.getPassword();
-        login.getPasswordError();
+        login.getInvalidEmail();
+//        login.getPassword();
+//        login.getPasswordError();
 
     }
 

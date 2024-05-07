@@ -45,7 +45,7 @@ public class LoginPage {
     public void getInvalidEmail() throws InterruptedException {
         Thread.sleep(1000);
         ReusableMethod.clickElement(email);
-        reusableMethod.sendKeysToElement(email, "wsww5666164w@adv.bg");
+        reusableMethod.sendKeysToElement(email, "___");
         ReusableMethod.clickElement(continueButton);
         Thread.sleep(3000);
         ReusableMethod.clickElement(continueButton);
