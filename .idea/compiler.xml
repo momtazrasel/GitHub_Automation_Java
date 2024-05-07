@@ -11,6 +11,7 @@
         <module name="Java_Selenium_Bid2Bil" />
         <module name="webDriverJava" />
         <module name="Java_Selenium_POM" />
+        <module name="GitHub_Automation_Java" />
       </profile>
     </annotationProcessing>
   </component>
